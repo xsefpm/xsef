@@ -2,10 +2,45 @@
 
 > Specification for a modern SEF implementation
 
+- [eXtended Standard Exchange Format](#extended-standard-exchange-format)
+  * [Abstract](#abstract)
+    + [XSEF's main design goals are:](#xsef-s-main-design-goals-are-)
+  * [Overview](#overview)
+  * [Usage](#usage)
+    + [.INI](#ini)
+    + [.VER](#ver)
+    + [.PRIVATE or .PUBLIC](#private-or-public)
+    + [.STD](#std)
+    + [.SETS](#sets)
+    + [.COMS](#coms)
+    + [.ELMS](#elms)
+    + [.CODES](#codes)
+  * [License](#license)
+
+## Abstract 
+
+`XSEF` is similar to `npm` in that they are both package managers.
+
+* Configure Schemas between Business to Business Trading Channels / Message Channels 
+* Define, in a deterministic way, what is a *valid* and what is an *invalid* data interchange message
+* Utilize modern techniques and applications to leverage performant featureset while still being small
+* Enable easier B2B onboarding for companies by having a decentralized package management tool for accessing configurations
+* an *Infrastructure as Code* approach to dealing with onboarding new business relations 
+
+### XSEF's main design goals are:
+
+- configuration management 
+- platform independence 
+- hermetic and deterministic builds
+- reliability and safety
+
+
 ## Overview
 
-The eXtended Standard Exchange Format ('XSEF') is an open-standard file format - files ending with the extension
-.xsef.cfg - that defines the format and the format and implementation guideline for proprietary and standard EDI documents.
+The eXtended Standard Exchange Format ('XSEF') is an open-standard file format 
+- files ending with the extension .xsef - 
+
+That defines the format and the format and implementation guideline for proprietary and standard EDI documents.
 
 XSEF holds key advantages over other file formats in that it is designed for EDI
 
